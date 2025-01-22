@@ -1,0 +1,122 @@
+body,html{
+  background-image:  linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.5)
+  ), 
+  url('./Images/backgroundimg.jpg'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  overflow-x: hidden;
+  height: auto;
+}
+
+
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.heading h1{
+  font-family: 'Playfair Display',serif;
+  font-size: 35px;
+  color:#6b5e51;
+  margin: 0;
+ 
+  
+}
+
+.heading h3{
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  color: #90857a;
+  margin: 0 ;
+ 
+}
+
+.testimonial-slider-container {
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.testimonial-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  flex: 0 0 30%;
+  margin: 5px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0.5;
+  transform: scale(0.8);
+  cursor: pointer;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.testimonial-card img {
+  border-radius: 60%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.testimonial-card h4 {
+  color: #333;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.testimonial-card.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.testimonial-card.shrink {
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+
+footer p {
+  margin-top: -15px;
+  font-family: 'Lato', sans-serif; 
+  font-size: 14px;
+  text-align: center; 
+  color:#6b5e51;
+  font-weight: 600;
+}
+
+
+
+
