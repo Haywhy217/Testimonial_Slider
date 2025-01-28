@@ -8,13 +8,10 @@ body,html{
     rgba(0, 0, 0, 0.8)
   ), 
    url('./Images/backgroundimg.jpg'); 
-  background-size: contain; 
+  background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
   overflow: hidden;
-  height: auto;
-  overflow: hidden;
-  
 }
 
 
