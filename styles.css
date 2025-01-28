@@ -12,6 +12,7 @@ body,html{
   background-repeat: no-repeat; 
   background-position: center; 
   overflow: hidden;
+  justify-content: center;
 }
 
 
