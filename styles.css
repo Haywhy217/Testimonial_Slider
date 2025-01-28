@@ -1,5 +1,8 @@
 body,html{
-  height: 100%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  min-height: 100vh; 
   margin: 0;
   padding: 0;
   background-image:  linear-gradient(
@@ -12,7 +15,7 @@ body,html{
   background-repeat: no-repeat; 
   background-position: center; 
   overflow: hidden;
-  justify-content: center;
+  
 }
 
 
